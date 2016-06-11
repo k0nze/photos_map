@@ -2,6 +2,8 @@
 
 This litte R script reads the GPS location from the EXIF data of images and plots a map (using Google Maps or Plotly) with markers for the photo locations.
 
+![example map](https://github.com/k0nze/photos_map/raw/master/example_google_maps.png "example map")
+
 ## Usage
 ### R Libraries
 
