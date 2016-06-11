@@ -18,7 +18,8 @@ get.gps.locations <- function(path.to.images, path.to.exiftool) {
     latitude <- vector()
     
     for(i in 1:length(image.files)) {
-        string <- as.character(system(intern = TRUE ,command = paste(sep="", path.to.exiftool," -gpslatitude -gpslongitude -T -c \"%.6f\" ", path.to.images, "/", image.files[i], ' | tr "\t" " "')))
+        command <- paste(sep="", path.to.exiftool,' -gpslatitude -gpslongitude -T -c "%.6f" "', path.to.images, "/", image.files[i], '" | tr "\t" " "') 
+        string <- system(intern = TRUE ,command = command)
         splitted.string <- strsplit(string, split=" ")
        
         # check if image contains GPS data 
