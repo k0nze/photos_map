@@ -1,4 +1,4 @@
-# Author: Konstantin Lübeck
+# Author: Konstantin (Konze) Lübeck
 
 get.gps.locations <- function(path.to.images, path.to.exiftool) {
 

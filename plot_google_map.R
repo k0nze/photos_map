@@ -1,4 +1,5 @@
 # Author: Konstantin Lübeck
+# Author: Konstantin (Konze) Lübeck
 # Plots a map (Google Maps) with points of locations retrieved from images
 
 library(ggmap)

@@ -1,4 +1,4 @@
-# Author: Konstantin Lübeck
+# Author: Konstantin (Konze) Lübeck
 # Plots a map (Plotly) with points of locations retrieved from images
 
 library(plotly)
